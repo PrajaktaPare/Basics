@@ -1,3 +1,8 @@
+/**Define a Student class (roll number, name, percentage). Define a default and parameterized  
+constructor. Keep a count of objects created. Create objects using parameterized constructor and  
+display the object count after each object is created. (Use static member and method). Also  
+display the contents of each object.   */
+
 import java.util.*;
 
  public class Student {
@@ -39,8 +44,8 @@ public  class StudentMain
 {
     public static void main(String [] args) 
     {
-        Student s1=new Student(1,"twqyfuw",60.00f);
-       Student s2=new Student(2,"dhefuw",78.89f);
+        Student s1=new Student(1,"Rani",78.89f );
+       Student s2=new Student(2,"Raja",78.89f);
         Student.count();
         s1.display();
         s2.display();
