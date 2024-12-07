@@ -3,7 +3,7 @@
 class Car():
     brand=" "
     year=0
-    bonous=0
+    bonus=0
     colour=""
     def __init__(self,brand,year,bonus,colour):
         self.brand=brand
